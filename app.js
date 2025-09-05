@@ -105,11 +105,22 @@ var mixed = ["Hassaan", 19, true, 89.6, false, "Karachi"];
 
 // Que:09..... Ans:09
 // (g)
-var somecolrs = [" Red", " Blue", " Yellow", " Orange"];
-var index = +prompt("Enter an index to remove color.");
-var dltcount = +prompt("Enter a delete count that how many colors are remove.");
+// var somecolrs = [" Red", " Blue", " Yellow", " Orange"];
+// var index = +prompt("Enter an index to remove color.");
+// var dltcount = +prompt("Enter a delete count that how many colors are remove.");
 
-somecolrs.splice(" "+index, +" "+ dltcount);
+// somecolrs.splice(" "+index, +" "+ dltcount);
 
-document.write("<br>Updated colors: "+"<b>"+somecolrs+"</b>");
+// document.write("<br>Updated colors: "+"<b>"+somecolrs+"</b>");
 
+
+// Que:10.... Ans:10
+var stdScores = [120, 30, 100, 70, 95];
+var copyArray = stdScores.slice();
+
+stdScores.sort(function(a, b){
+    return a - b;
+});
+
+document.write("Student Scores: "+copyArray);
+document.write("<br>Ordered scores of student : "+stdScores);
