@@ -115,12 +115,81 @@ var mixed = ["Hassaan", 19, true, 89.6, false, "Karachi"];
 
 
 // Que:10.... Ans:10
-var stdScores = [120, 30, 100, 70, 95];
-var copyArray = stdScores.slice();
+// var stdScores = [120, 30, 100, 70, 95];
+// var copyArray = stdScores.slice();
 
-stdScores.sort(function(a, b){
-    return a - b;
-});
+// stdScores.sort(function(a, b){
+//     return a - b;
+// });
 
-document.write("Student Scores: "+copyArray);
-document.write("<br>Ordered scores of student : "+stdScores);
+// document.write("Student Scores: "+copyArray);
+// document.write("<br>Ordered scores of student : "+stdScores);
+
+
+// Que:11.... Ans:11
+// var cities = ["Karachi", " Hyderabad", " Sukkur", " Quetta", " Islamabad", " Peshawar"];
+// var copyCities = cities.slice(1,4);
+
+// document.write("<b>Cities list:</b> <br/>"+cities);
+// document.write("<br/><br/><b>Selected cities list:</b> <br/>"+copyCities);
+
+
+// Que:12.... Ans:12
+// var arr = ["This", " is", " my", " cat"];
+// var newArr = arr.join(" ");
+
+// document.write("<b>Array:</b> <br/>"+arr);
+// document.write("<br/><br/><b>String:</b> <br/>"+newArr);
+
+
+// Que:13.... Ans:13
+// var newArray1 = [];
+
+// newArray1.push("Chips");
+// newArray1.push(" Tea");
+// newArray1.push(" Cold drink");
+// newArray1.push(" Pastries");1
+// newArray1.push(" Juice");
+
+// document.write("<b>Items:</b> <br/>" + newArray1+"<br/>");
+
+// FIFO = First In, First Out
+// document.write("<br/><b>Out:</b> <br/>" + newArray1.shift());
+// document.write("<br/><b>Out:</b> <br/>" + newArray1.shift());
+// document.write("<br/><b>Out:</b> <br/>" + newArray1.shift());
+// document.write("<br/><b>Out:</b> <br/>" + newArray1.shift());
+// document.write("<br/><b>Out:</b> <br/>" + newArray1.shift());
+
+
+// Que:14.... Ans:14
+// var newArray2 = [];
+
+// newArray2.push("Chips");
+// newArray2.push(" Tea");
+// newArray2.push(" Cold drink");
+// newArray2.push(" Pastries");
+// newArray2.push(" Juice");
+
+// document.write("<b>Items:</b> <br/>" + newArray2+"<br/>");
+
+// // LIFO = Last In, First Out
+// document.write("<br/><b>Out:</b> <br/>" + newArray2.pop());
+// document.write("<br/><b>Out:</b> <br/>" + newArray2.pop());
+// document.write("<br/><b>Out:</b> <br/>" + newArray2.pop());
+// document.write("<br/><b>Out:</b> <br/>" + newArray2.pop());
+// document.write("<br/><b>Out:</b> <br/>" + newArray2.pop());
+
+
+// Que:15.... Ans:15
+var mobileBrands = ["Samsung", " Apple", " Vivo", " Google Pixel", " Infinix", " Techno", " Sony"];
+
+document.write("<select>");
+document.write("<option disabled selected>" + "Select" +"</option>");
+document.write("<option>" + mobileBrands[0] + "</option>");
+document.write("<option>" + mobileBrands[1] + "</option>");
+document.write("<option>" + mobileBrands[2] + "</option>");
+document.write("<option>" + mobileBrands[3] + "</option>");
+document.write("<option>" + mobileBrands[4] + "</option>");
+document.write("<option>" + mobileBrands[5] + "</option>");
+document.write("<option>" + mobileBrands[6] + "</option>");
+document.write("</select>");
